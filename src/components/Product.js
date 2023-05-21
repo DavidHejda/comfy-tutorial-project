@@ -8,7 +8,7 @@ const Product = ({ image, name, price, id }) => {
   return (
     <Wrapper>
       <div className="container">
-        <Link to={`products/${id}`}>
+        <Link to={`/products/${id}`}>
           <img src={image} alt={name} />
           <div className="link">
             <FaSearch />
