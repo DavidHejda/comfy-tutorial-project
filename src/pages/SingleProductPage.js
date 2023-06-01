@@ -31,7 +31,7 @@ const SingleProductPage = () => {
   useEffect(() => {
     if (error) {
       setTimeout(() => {
-        navigate.push('/');
+        navigate('/');
       }, 3000);
     }
   }, [error]);
